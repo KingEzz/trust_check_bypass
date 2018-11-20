@@ -1,3 +1,4 @@
+```c
 #define ShortProtect(addr, NEW_PROTECTION, OLD_PROTECTION)(VirtualProtect(addr, sizeof(int), NEW_PROTECTION, OLD_PROTECTION))
 namespace TrustCheck
 {
@@ -21,3 +22,4 @@ namespace TrustCheck
 		return; // return
 	}
 };
+```
